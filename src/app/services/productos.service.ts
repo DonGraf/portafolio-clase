@@ -45,8 +45,6 @@ buscarProducto(termino: string){
       //aplicar el filtro
       this.filtrarProducto(termino);
     }
-
-  console.log(this.productoFiltrado);
 }
 
 private filtrarProducto( termino: string){
